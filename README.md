@@ -1,22 +1,32 @@
-# Writora AI
-Writora AI is a powerful tool that transforms your video or audio content into a blog post in seconds, powered by cutting-edge AI technology. It’s designed to streamline your content creation process and generate high-quality blog posts effortlessly.
+# Spinabot - AI Voice Agents & Workflow Automation
 
-![thumbnails](https://github.com/user-attachments/assets/04dccf47-316b-46b7-b69b-e07482a683ba)
+Spinabot is a cutting-edge platform that empowers businesses to create intelligent AI voice agents and automate complex workflows. With advanced natural language processing and intelligent automation, Spinabot enables organizations to handle customer interactions, lead qualification, and business operations automatically.
+
+![thumbnails](https://github.com/dcs-labs/product-pages-spinabot/blob/main/public/logo.png)
 
 ## Features
 
-- 🚀 AI-Powered Conversion: Convert audio or video into a blog post within seconds using AI.
-- 🔐 Authentication: Secure user authentication via Clerk
-- 📝 Blog Post Generation: Automatically generate blog posts based on audio or video transcriptions.
-- 💳 Payment Integration: Fully integrated with Stripe for handling payments, custom pricing, and subscription management.
-- 💾 Database Management: Efficient data management with NeonDb.
-- 📤 File Uploads: Seamless file uploads using UploadThing.
-- 🎙️ Audio and video file processing (up to 25MB)
-- 🖋️ Markdown Editor: Edit your blog posts with a built-in Markdown editor.
-- 💅 TailwindCSS for styling
-- 🔒 Secure file handling and processing
-- 🪝 Webhook implementation for Stripe events
-- 🔍 SEO-friendly blog post generation
+- 🤖 Intelligent Voice Agents: Create AI-powered voice bots that talk like humans with natural conversations
+- 🔄 Workflow Automation: Automate complex multi-step workflows with intelligent AI agents
+- 📞 Multi-Channel Support: Deploy agents across phone, web, and messaging platforms
+- 🧠 Advanced NLP: Natural language processing for human-like interactions
+- 📊 Business Automation: Handle lead qualification, customer support, sales, marketing, and operations
+- 🔐 Enterprise Security: Secure authentication and data protection
+- 📈 Analytics Dashboard: Monitor agent performance and workflow metrics
+- 💅 Beautiful UI: Modern interface built with TailwindCSS and Shadcn/ui
+- ⚡ High Performance: Optimized for speed and reliability
+- 🔗 Easy Integration: Seamless integration with existing business systems
+- 🎯 Customizable Workflows: Build workflows tailored to your business needs
+- 📱 Responsive Design: Works on desktop, tablet, and mobile devices
+
+## Built with
+
+- [Next.js](https://nextjs.org/) - React framework for production
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Shadcn/ui](https://ui.shadcn.com/) - High-quality React components
+- [Magic UI](https://magicui.design) - Advanced UI animations
+- [TypeScript](https://www.typescriptlang.org/) - Type-safe JavaScript
+- [Framer Motion](https://www.framer.com/motion/) - Animation library
 
 ## Built with
 
@@ -31,6 +41,7 @@ Writora AI is a powerful tool that transforms your video or audio content into a
 - [Open AI](https://openai.com/)
 
 ### Tools
+
 - [Biome](https://biomejs.dev/)
 - [Husky](https://typicode.github.io/husky/)
 
@@ -38,75 +49,44 @@ Writora AI is a powerful tool that transforms your video or audio content into a
 
 To request a feature open a [GitHub issue](https://github.com/anayatkhan1/Writora-AI/issues).
 
- ## Contribution Guidelines
+## Contribution Guidelines
 
 Thank you for considering contributing to our AI-powered blog generator project! Please follow these guidelines to ensure smooth collaboration:
 
 1. Fork the repository to your GitHub account.
+
 2. Clone the forked repository to your local machine:
+
 3. Create a new branch for your changes:
 
-    ```bash
-    git checkout -b feature/your-feature-name
-    ```
+```bash
+git checkout -b feature/your-feature-name
+```
 
 4. Make your changes and ensure they adhere to the project's coding style and guidelines.
+
 5. Test your changes thoroughly to avoid introducing bugs.
+
 6. Commit your changes with clear and descriptive commit messages:
 
-    ```bash
-    git commit -m 'feat: Add your descriptive commit message'
-    ```
-    ``Note:`` Before committing changes, ensure you include one of these tags in your commit message: ```feat, fix, wip, patch, build```.
+```bash
+git commit -m 'feat: Add your descriptive commit message'
+```
+
+`Note:` Before committing changes, ensure you include one of these tags in your commit message: `feat, fix, wip, patch, build`.
 
 7. Push your changes to your forked repository:
 
-    ```bash
-    git push origin feature/your-feature-name
-    ```
+```bash
+git push origin feature/your-feature-name
+```
 
 8. Open a pull request against the `main` branch of the original repository.
+
 9. Provide a clear and concise description of your changes in the pull request, along with any relevant information.
+
 10. Ensure your pull request passes all checks and tests before requesting a review.
-
-### Setting Up Environment Variables
-
-To run the project locally, you need to set up the following environment variables:
-
-```python
-# CLERK
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_SIGN_IN_FORCE_REDIRECT_URL=/dashboard
-NEXT_PUBLIC_CLERK_SIGN_IN_FORCE_REDIRECT_URL=/dashboard
-
-# STRIPE
-STRIPE_SECRET_KEY=
-STRIPE_WEBHOOK_SECRET=
-STRIPE_PRICE_ID_BASIC_PLAN=
-STRIPE_PRICE_ID_PRO_PLAN=
-
-# NEONDB
-DATABASE_URL=
-
-# UPLOADTHING
-UPLOADTHING_SECRET=
-UPLOADTHING_APP_ID=
-
-# OPENAI
-OPENAI_API_KEY=
-
-PRODUCTION_ORIGIN_URL=
-NEXT_PUBLIC_APP_NAME=Writora
-
-```
-You can set these environment variables by creating a `.env.local or .env` file in the root directory of the project and adding the variables with their respective values:
-
-## 📜 License
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/anayatkhan1/Writora-AI/blob/main/LICENSE) file for details.
 
 ---
 
-Built with ❤️ by [Anayat](https://anayat.xyz)
+Built with ❤️ 
