@@ -6,7 +6,7 @@ import { useSidebar } from "@/contexts/sidebar-context";
 export function LayoutContent({ children }: { children: React.ReactNode }) {
 	const { isVisible } = useSidebar();
 
-	return (
+	return ( 
 		<main
 			className={cn(
 				"relative z-0 transition-all duration-300 ease-in-out",
