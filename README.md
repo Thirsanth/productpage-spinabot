@@ -2,7 +2,7 @@
 
 Spinabot is a cutting-edge platform that empowers businesses to create intelligent AI voice agents and automate complex workflows. With advanced natural language processing and intelligent automation, Spinabot enables organizations to handle customer interactions, lead qualification, and business operations automatically.
 
-![thumbnails](https://github.com/dcs-labs/product-pages-spinabot/blob/main/public/logo.png)
+![thumbnails](https://github.com/dcs-labs/productpage-spinabot/blob/main/public/logo.png)
 
 ## Features
 
@@ -54,9 +54,7 @@ To request a feature open a [GitHub issue](https://github.com/anayatkhan1/Writor
 Thank you for considering contributing to our AI-powered blog generator project! Please follow these guidelines to ensure smooth collaboration:
 
 1. Fork the repository to your GitHub account.
-
 2. Clone the forked repository to your local machine:
-
 3. Create a new branch for your changes:
 
 ```bash
@@ -64,9 +62,7 @@ git checkout -b feature/your-feature-name
 ```
 
 4. Make your changes and ensure they adhere to the project's coding style and guidelines.
-
 5. Test your changes thoroughly to avoid introducing bugs.
-
 6. Commit your changes with clear and descriptive commit messages:
 
 ```bash
@@ -82,11 +78,9 @@ git push origin feature/your-feature-name
 ```
 
 8. Open a pull request against the `main` branch of the original repository.
-
 9. Provide a clear and concise description of your changes in the pull request, along with any relevant information.
-
 10. Ensure your pull request passes all checks and tests before requesting a review.
 
 ---
 
-Built with ❤️ 
+Built with ❤️
