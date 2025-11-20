@@ -54,7 +54,7 @@ const AgenticAIWorkflowsPage = () => {
 								multi-step workflows automatically From lead qualification to customer support.
 							</span>
 						</p>
-						<GetStartedButton href="https://dev-spinabot.com/ai-agents" />
+						<GetStartedButton href="https://spinabot-mvp1-ui.web.app/ai-agents" />
 					</AnimationContainer>
 
 					<AnimationContainer

@@ -244,7 +244,7 @@ const AgenticChatbotBuilderPage = () => {
 								 integrate with your existing tools, and deploy across multiple channels—all without writing a single line of code
 							</span>
 						</p>
-						<GetStartedButton text="Start building" href="https://dev-spinabot.com/chatbot-builder" />
+						<GetStartedButton text="Start building" href="https://spinabot-mvp1-ui.web.app/chatbot-builder" />
 					</AnimationContainer>
 
 					<AnimationContainer

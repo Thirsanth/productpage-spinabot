@@ -47,7 +47,7 @@ const VoiceBotPage = () => {
 						<p className="mb-12 text-balance text-lg text-muted-foreground tracking-tight md:text-xl">
 							Deploy intelligent voice agents that can handle customer calls, appointments, and support inquiries with natural conversation flow. Powered by advanced AI that understands context and responds appropriately.
 						</p>
-						<GetStartedButton href="https://dev-spinabot.com/voice-agent-builder" />
+						<GetStartedButton href="https://spinabot-mvp1-ui.web.app/voice-agent-builder" />
 					</AnimationContainer>
 
 					<AnimationContainer
