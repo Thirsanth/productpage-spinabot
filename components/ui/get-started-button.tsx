@@ -48,14 +48,15 @@ const GetStartedButton: React.FC<Props> = ({ href, children, text }) => {
 	return (
 		<StyledWrapper>
 			{href ? (
-				<Link href={href} legacyBehavior>
-					<a className="button">{content}</a>
-				</Link>
-			) : (
-				<button type="button" className="button">
-					{content}
-				</button>
-			)}
+  <a href={href} className="button">
+    {content}
+  </a>
+) : (
+  <button type="button" className="button">
+    {content}
+  </button>
+)}
+
 		</StyledWrapper>
 	);
 };

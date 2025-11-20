@@ -54,7 +54,7 @@ const AgenticAIWorkflowsPage = () => {
 								multi-step workflows automatically From lead qualification to customer support.
 							</span>
 						</p>
-						<GetStartedButton />
+						<GetStartedButton href="https://dev-spinabot.com/ai-agents" />
 					</AnimationContainer>
 
 					<AnimationContainer
@@ -83,34 +83,7 @@ const AgenticAIWorkflowsPage = () => {
 				</div>
 			</MaxWidthWrapper>
 
-			{/* Companies Section */}
-			{/* <MaxWidthWrapper>
-				<AnimationContainer delay={0.4}>
-					<div className="py-14">
-						<div className="mx-auto px-4 md:px-8">
-							<h2 className="text-center font-heading font-medium text-neutral-400 text-sm uppercase">
-								Trusted by the best in the industry
-							</h2>
-							<div className="mt-8">
-								<ul className="flex flex-wrap items-center justify-center gap-x-6 gap-y-6 md:gap-x-16">
-									{COMPANIES.map((company) => (
-										<li key={company.name}>
-											<Image
-												src={company.logo}
-												alt={company.name}
-												width={80}
-												height={80}
-												quality={100}
-												className="h-auto w-28"
-											/>
-										</li>
-									))}
-								</ul>
-							</div>
-						</div>
-					</div>
-				</AnimationContainer>
-			</MaxWidthWrapper> */}
+			
 
 			{/* Features Section */}
 			<MaxWidthWrapper className="pt-10">
